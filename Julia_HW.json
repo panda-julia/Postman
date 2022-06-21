@@ -94,17 +94,20 @@
 						{
 							"key": "name",
 							"value": "{{name}}",
-							"type": "text"
+							"type": "text",
+							"disabled": true
 						},
 						{
 							"key": "age",
 							"value": "{{age}}",
-							"type": "text"
+							"type": "text",
+							"disabled": true
 						},
 						{
 							"key": "salary",
 							"value": "{{salary}}",
-							"type": "text"
+							"type": "text",
+							"disabled": true
 						}
 					]
 				},
@@ -168,7 +171,7 @@
 					]
 				},
 				"url": {
-					"raw": "http://162.55.220.72:5005/object_info_2?name={{name}}&age={{age}}&salary={{salary}}",
+					"raw": "http://162.55.220.72:5005/object_info_2",
 					"protocol": "http",
 					"host": [
 						"162",
@@ -183,15 +186,18 @@
 					"query": [
 						{
 							"key": "name",
-							"value": "{{name}}"
+							"value": "{{name}}",
+							"disabled": true
 						},
 						{
 							"key": "age",
-							"value": "{{age}}"
+							"value": "{{age}}",
+							"disabled": true
 						},
 						{
 							"key": "salary",
-							"value": "{{salary}}"
+							"value": "{{salary}}",
+							"disabled": true
 						}
 					]
 				}
@@ -227,7 +233,7 @@
 					]
 				},
 				"url": {
-					"raw": "http://162.55.220.72:5005/object_info_3?name={{name}}&age={{age}}&salary={{salary}}",
+					"raw": "http://162.55.220.72:5005/object_info_3",
 					"protocol": "http",
 					"host": [
 						"162",
@@ -242,15 +248,18 @@
 					"query": [
 						{
 							"key": "name",
-							"value": "{{name}}"
+							"value": "{{name}}",
+							"disabled": true
 						},
 						{
 							"key": "age",
-							"value": "{{age}}"
+							"value": "{{age}}",
+							"disabled": true
 						},
 						{
 							"key": "salary",
-							"value": "{{salary}}"
+							"value": "{{salary}}",
+							"disabled": true
 						}
 					]
 				}
@@ -297,6 +306,23 @@
 					"port": "5005",
 					"path": [
 						"object_info_4"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "{{name}}",
+							"disabled": true
+						},
+						{
+							"key": "age",
+							"value": "{{age}}",
+							"disabled": true
+						},
+						{
+							"key": "salary",
+							"value": "{{salary}}",
+							"disabled": true
+						}
 					]
 				}
 			},
